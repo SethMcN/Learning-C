@@ -13,5 +13,12 @@ int main() {
     printf("Voltage: %.1f\n", voltage);
     printf("Status: %c\n", status);
 
+// Check type sizes 
+    printf("int: %zu\n", sizeof(int));
+    printf("float: %zu\n", sizeof(float));
+    printf("double: %zu\n", sizeof(double));
+    printf("char: %zu\n", sizeof(char));
+
     return 0;
 }
+

@@ -177,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,6 +193,7 @@
   },
   "active": "2e59236b8787f65a",
   "lastOpenFiles": [
+    "compile_time.md",
     "01_Fundamentals/variables_and_types.md",
     "Code/01_Fundamentals/variables_and_types.c",
     "Code/01_Fundamentals/variables_and_types",
