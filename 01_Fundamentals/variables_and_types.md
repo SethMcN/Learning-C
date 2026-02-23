@@ -21,12 +21,6 @@ Unlike higher-level languages, C does not protect you from misuse.
 ---
 ## Example
 ``` c
-#include <stdio.h>
-
-// Compile and run
-// gcc variables_and_types.c -o variables_and_types
-// ./variables_and_types
-
 int main() {
     int temperature = 25;
     float voltage = 3.3;
@@ -44,8 +38,6 @@ int main() {
 
     return 0;
 }
-
-
 ```
 
 ---
