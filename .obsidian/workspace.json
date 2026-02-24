@@ -11,10 +11,28 @@
             "id": "83e2d11a96af448d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "02_Memory_Model/pointers_basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pointers_basics"
+            }
+          },
+          {
+            "id": "5a4572e8aa8673ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat Sheet/Printf_cheat_sheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Printf_cheat_sheet"
             }
           },
           {
@@ -188,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,23 +220,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30d45beba8099c72",
+  "active": "feb747340aee9293",
   "lastOpenFiles": [
+    "02_Memory_Model/pointers_basics.md",
+    "Cheat Sheet/Printf_cheat_sheet.md",
+    "Cheat Sheet",
+    "Code/02_Memory_Model/pointers_basics.exe",
+    "02_Memory_Model/stack_vs_heap.md",
+    "Code/02_Memory_Model/pointers_basics.c",
+    "02_Memory_Model/signed_vs_unsigned.md",
     "Code/02_Memory_Model/stack_vs_heap.exe",
     "Code/02_Memory_Model/stack_vs_heap.c",
     "Code/02_Memory_Model",
-    "02_Memory_Model/stack_vs_heap.md",
-    "02_Memory_Model/signed_vs_unsigned.md",
     "01_Fundamentals/variables_and_types.md",
     "Code/01_Fundamentals/variables_and_types.exe",
     "compile_time.md",
     "Code/01_Fundamentals/variables_and_types.c",
     "Code/01_Fundamentals/variables_and_types",
     "Code/01_Fundamentals",
-    "Code/variables_and_types",
-    "Code/variables_and_types.c",
-    "Code",
-    "Untitled",
     "Welcome.md",
     "Untitled.canvas"
   ]
