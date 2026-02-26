@@ -2,6 +2,7 @@
 #include "satellite.h"
 #include <unistd.h>
 #include <stdlib.h>
+#include <time.h>
 
 static const char *earth_arr[] ={
             "              _-o#&&*''''?d:>b\\_\n",
@@ -146,7 +147,8 @@ void satellite_art(void) {
     
     int total = sizeof(images) / sizeof(images[0]);
 
-    int img = rand() % 4;
+    srand(time(NULL));
+    int img = rand() % total;
     // printf("Random number: %d\n", img);
 
     
@@ -165,10 +167,26 @@ void satellite_art(void) {
             }
 
         }else{
-            printf("%s", images[img].data[line]);
-            usleep(100000);
+            const char *str = images[img].data[line];
+
+            for (int chr = 0; str[chr] != '\0'; chr++){
+                putchar(str[chr]);
+                fflush(stdout);
+                usleep(20000);
+            }
         }
 
     }
+
+    printf("\nPress Enter to continue...");
+
+    int c;
+
+    //Flush leftover characters 
+    while ((c = getchar()) != '\n' && c != EOF);
+
+    getchar();
+
+    system("clear");
     
 }
